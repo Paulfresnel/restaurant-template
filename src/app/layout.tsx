@@ -16,8 +16,8 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Restaurant Name | Fine Dining Experience",
-  description: "Experience exceptional cuisine and ambiance at Restaurant Name",
+  title: "La Cabine d'Argent | Une Expérience Culinaire Unique",
+  description: "Découvrez une expérience culinaire unique au cœur de Paris",
 };
 
 export default function RootLayout({

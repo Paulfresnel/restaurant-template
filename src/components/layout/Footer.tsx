@@ -1,3 +1,4 @@
+import SocialIcons from '@/components/shared/SocialIcons';
 import Logo from '@/components/shared/Logo';
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
               <p>123 Rue Example</p>
               <p>75000 Paris</p>
               <p>Tél: 01 23 45 67 89</p>
-              <p>Email: contact@restaurant.com</p>
+              <p>Email: contact@cabine-argent.com</p>
             </address>
           </div>
 
@@ -29,13 +30,11 @@ const Footer = () => {
           {/* Réseaux sociaux */}
           <div>
             <h3 className="text-xl font-heading mb-4">Suivez-nous</h3>
-            <div className="flex space-x-4">
-              {/* Ajoutez ici vos icônes de réseaux sociaux */}
-            </div>
+            <SocialIcons />
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center font-body">
-          <p>&copy; {new Date().getFullYear()} Restaurant Name. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} La Cabine d&apos;Argent. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

@@ -10,7 +10,7 @@ const Logo = ({ className = '', withText = true }: LogoProps) => {
   return (
     <Link href="/" className={`flex items-center gap-2 ${className}`}>
       <Image
-        src="/images/cabine-logo.jpeg"
+        src="/images/logo2.png"
         alt="La Cabine d'Argent Logo"
         width={40}
         height={40}

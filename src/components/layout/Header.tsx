@@ -36,7 +36,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-heading text-text-light">
-              Restaurant Name
+              La Cabine d'Argent
             </Link>
           </div>
 

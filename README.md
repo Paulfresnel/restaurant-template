@@ -1,4 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# La Cabine d'Argent - Restaurant Template
+
+## 🍽️ Overview
+
+A modern, responsive restaurant website template built with Next.js 14, TypeScript, and Tailwind CSS. This template is designed to provide restaurants with a professional online presence, featuring a dynamic image slider, menu downloads, contact forms, and location integration.
+
+## ✨ Features
+
+- 🎯 **Responsive Design**: Optimized for mobile, tablet, and desktop
+- 🖼️ **Dynamic Image Slider**: Automatic background image transitions
+- 📱 **Mobile-First Navigation**: Hamburger menu for mobile devices
+- 🗺️ **Google Maps Integration**: Interactive location display
+- 📄 **PDF Menu**: Downloadable menu option
+- 📝 **Contact Form**: Built-in contact functionality
+- 🎨 **Modern UI/UX**: Professional design with consistent typography and color scheme
+- ⚡ **Performance Optimized**: Fast loading times with optimized images and fonts
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Animations**: Framer Motion
+- **Form Handling**: React Hook Form (planned)
+- **Maps**: Google Maps API (planned)
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/restaurant-template.git
+```
 
 ## Getting Started
 
@@ -20,17 +53,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Home**: Dynamic background slider and welcome message
+- **Menu**: Downloadable PDF menu
+- **About**: Restaurant information
+- **Contact**: Contact form
+- **Location**: Google Maps integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+The template can be easily customized by modifying:
+- `tailwind.config.ts`: Colors, fonts, and other theme settings
+- `public/images/`: Restaurant images
+- Content in component files
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Support
+
+For support, email [your-email@example.com](mailto:your-email@example.com)
