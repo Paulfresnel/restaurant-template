@@ -1,0 +1,34 @@
+
+OBJECTIFS:
+
+1) On va construire un site vitrine pour un établissement de type "restaurant".
+2) Le nom de ce restaurant est "La Cabine d'Argent".
+3) Ce site servira de template pour un site vitrine futur afin de pouvoir l'ajouter à mon portfolio et le proposer à des clients.
+4) Nous n'aurons pas besoin de gérer de back-office, ni de gestion de commandes.
+
+
+A PRENDRE EN COMPTE - STACK TECHNOLOGIQUE PRIORITES:
+- Créer un site de type React.js avec Next.js. 
+- Assurer la responsivité du site pour un affichage optimal sur mobile, tablette et desktop.
+- Utiliser Tailwind CSS pour la gestion des styles simplifiée et performante.
+- Optimiser les performances du site avec la gestion des images et des polices de caractères, pour un affichage et chargement optimaux.
+- Employer un code couleur et une typographie cohérente et profesionelle pour ce genre d'établissement.
+- En format mobile, le menu devra être accessible via un bouton hamburger en haut à gauche de l'écran.
+- Lorsque l'icône de hamburger est cliquée, un menu déroulant devra apparaître avec les liens de navigation principaux du site, juste en dessous du Header.
+
+STRUCTURE DU SITE:
+
+Pages souhaitées pour ce site:
+1) Accueil: Avec un slider d'images dynamique intégrée en fond d'écran (avec un effet de slide)
+2) Menu: Avec un téléchargement PDF disponible
+3) Qui sommes-nous ?
+4) Contactez-nous: Avec un formulaire de contact
+5) Nous trouver: Avec une carte Google Maps dynamique (avec API Google Maps)
+6) Blog (FACULTATIF)
+6) Evènements (FACULTATIF)
+
+
+FACULTATIF:
+
+- (FACULTATIF) => Nous aurons besoin de gérer un blog, avec des articles, des catégories, des tags, des commentaires.
+- (FACULTATIF) => Nous aurons besoin de gérer des évènements, avec une date de début, une date de fin, une description, une image.
