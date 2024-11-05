@@ -43,7 +43,7 @@ const AboutContent = () => {
             className="relative h-[400px] rounded-lg overflow-hidden"
           >
             <Image
-              src="/images/history/history1.jpeg"
+              src="/images/history/cabin.jpeg"
               alt="Histoire du restaurant"
               fill
               className="object-cover"
