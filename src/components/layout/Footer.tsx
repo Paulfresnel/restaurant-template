@@ -10,8 +10,8 @@ const Footer = () => {
           <div>
             <Logo className="mb-4" />
             <address className="font-body not-italic">
-              <p>123 Rue Example</p>
-              <p>75000 Paris</p>
+              <p>46 Rue Lecourbe</p>
+              <p>75015 Paris</p>
               <p>Tél: 01 23 45 67 89</p>
               <p>Email: contact@cabine-argent.com</p>
             </address>

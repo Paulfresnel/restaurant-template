@@ -69,7 +69,7 @@ const WelcomeSection = () => {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
               <div>
-                <h3 className="text-xl font-heading text-primary mb-2 flex items-center gap-2">
+                <h3 className="text-2xl md:text-xl font-heading text-primary mb-2 flex items-center gap-2">
                   <i className="fas fa-utensils text-primary"></i>
                   Cuisine Raffinée
                 </h3>
@@ -78,7 +78,7 @@ const WelcomeSection = () => {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-heading text-primary mb-2 flex items-center gap-2">
+                <h3 className="text-2xl md:text-xl font-heading text-primary mb-2 flex items-center gap-2">
                   <i className="fas fa-wine-glass-alt text-primary"></i>
                   Ambiance Unique
                 </h3>
@@ -88,10 +88,9 @@ const WelcomeSection = () => {
               </div>
             </div>
             
-            {/* Ajout de deux nouvelles sections avec icônes */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-xl font-heading text-primary mb-2 flex items-center gap-2">
+                <h3 className="text-2xl md:text-xl font-heading text-primary mb-2 flex items-center gap-2">
                   <i className="fas fa-award text-primary"></i>
                   Excellence
                 </h3>
@@ -100,7 +99,7 @@ const WelcomeSection = () => {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-heading text-primary mb-2 flex items-center gap-2">
+                <h3 className="text-2xl md:text-xl font-heading text-primary mb-2 flex items-center gap-2">
                   <i className="fas fa-leaf text-primary"></i>
                   Produits Frais
                 </h3>
