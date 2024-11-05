@@ -26,6 +26,7 @@ const config: Config = {
         text: {
           DEFAULT: '#333333',
           light: '#FFFFFF',
+          default: '#2D2D2D',
         }
       },
       fontFamily: {
