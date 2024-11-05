@@ -11,67 +11,112 @@ A modern, responsive restaurant website template built with Next.js 14, TypeScri
 - 📱 **Mobile-First Navigation**: Hamburger menu for mobile devices
 - 🗺️ **Google Maps Integration**: Interactive location display
 - 📄 **PDF Menu**: Downloadable menu option
-- 📝 **Contact Form**: Built-in contact functionality
+- 📝 **Contact Form**: Built-in contact functionality with EmailJS
 - 🎨 **Modern UI/UX**: Professional design with consistent typography and color scheme
 - ⚡ **Performance Optimized**: Fast loading times with optimized images and fonts
+- 🔄 **Smooth Animations**: Page transitions and scroll animations
+- 📱 **Progressive Web App Ready**: Can be installed as a PWA
 
 ## 🚀 Tech Stack
 
-- **Framework**: Next.js 14
+### Core
+- **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Icons**: Heroicons
+
+### UI/UX
+- **Icons**: Font Awesome
 - **Animations**: Framer Motion
-- **Form Handling**: React Hook Form (planned)
-- **Maps**: Google Maps API (planned)
+- **Fonts**: Google Fonts (Playfair Display, Lato)
+
+### Functionality
+- **Email Service**: EmailJS
+- **Maps**: Google Maps Embed API
+- **Image Optimization**: Next.js Image Component
+- **State Management**: React Hooks
+
+### Development
+- **Linting**: ESLint
+- **Type Checking**: TypeScript
+- **Package Manager**: npm
+- **Version Control**: Git
 
 ## 📦 Installation
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/yourusername/restaurant-template.git
 ```
 
-## Getting Started
+2. Install dependencies:
+```bash
+npm install
+```
 
-First, run the development server:
+3. Set up environment variables:
+Create a `.env.local` file with:
+```env
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+```
 
+## 🚀 Getting Started
+
+Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Pages & Components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-
-## 📱 Pages
-
+### Pages
 - **Home**: Dynamic background slider and welcome message
-- **Menu**: Downloadable PDF menu
-- **About**: Restaurant information
-- **Contact**: Contact form
+- **Menu**: Downloadable PDF menu (planned)
+- **Contact**: Integrated contact form with EmailJS
 - **Location**: Google Maps integration
+
+### Key Components
+- `BackgroundSlider`: Dynamic image carousel
+- `WelcomeSection`: Animated welcome content
+- `ContactForm`: EmailJS integrated contact form
+- `GoogleMap`: Interactive location display
+- `Header`: Responsive navigation
+- `Footer`: Site footer with social links
 
 ## 🎨 Customization
 
 The template can be easily customized by modifying:
 - `tailwind.config.ts`: Colors, fonts, and other theme settings
 - `public/images/`: Restaurant images
+- `src/config/`: Configuration files for various services
 - Content in component files
+
+## 🔧 Configuration
+
+### EmailJS Setup
+1. Create an account at [EmailJS](https://www.emailjs.com/)
+2. Create an email template
+3. Add your credentials to `.env.local`
+
+### Google Maps Setup
+1. Use the Google Maps Embed API
+2. Update the address in the `GoogleMap` component
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License, which means you can:
+- ✅ Use it commercially
+- ✅ Modify it
+- ✅ Distribute it
+- ✅ Use it privately
+- ✅ Use it for any purpose
+
+The only requirement is to include the original license and copyright notice in any copy of the software/source.
+
+See the [LICENSE.md](LICENSE.md) file for details.
 
 ## 👥 Contributing
 
@@ -79,4 +124,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, email [your-email@example.com](mailto:your-email@example.com)
+For support, email [paul.fresnel1@gmail.com](mailto:paul.fresnel1@gmail.com)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [EmailJS](https://www.emailjs.com/)
+- [Font Awesome](https://fontawesome.com/)
