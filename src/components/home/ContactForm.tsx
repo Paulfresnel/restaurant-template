@@ -96,12 +96,12 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="text"
-                  name="firstName"
                   id="firstName"
+                  name="firstName"
                   value={formData.firstName}
                   onChange={(e) => setFormData(prev => ({ ...prev, firstName: e.target.value }))}
                   required
-                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200"
+                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200 text-gray-900"
                   placeholder="Votre prénom"
                 />
               </div>
@@ -111,12 +111,12 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="text"
-                  name="lastName"
                   id="lastName"
+                  name="lastName"
                   value={formData.lastName}
                   onChange={(e) => setFormData(prev => ({ ...prev, lastName: e.target.value }))}
                   required
-                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200"
+                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200 text-gray-900"
                   placeholder="Votre nom"
                 />
               </div>
@@ -128,12 +128,12 @@ const ContactForm = () => {
               </label>
               <input
                 type="email"
-                name="email"
                 id="email"
+                name="email"
                 value={formData.email}
                 onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
                 required
-                className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200"
+                className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200 text-gray-900"
                 placeholder="votre@email.com"
               />
             </div>
@@ -143,13 +143,13 @@ const ContactForm = () => {
                 Message
               </label>
               <textarea
-                name="message"
                 id="message"
+                name="message"
                 value={formData.message}
                 onChange={(e) => setFormData(prev => ({ ...prev, message: e.target.value }))}
                 required
                 rows={4}
-                className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200 resize-none"
+                className="w-full px-4 py-2 rounded-md border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-colors duration-200 resize-none text-gray-900"
                 placeholder="Votre message..."
               />
             </div>
