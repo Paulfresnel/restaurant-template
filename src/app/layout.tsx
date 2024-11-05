@@ -17,8 +17,14 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "La Cabine d'Argent | Une Expérience Culinaire Unique",
-  description: "Découvrez une expérience culinaire unique au cœur de Paris",
+  title: "La Cabine d'Argent | Restaurant Gastronomique à Paris",
+  description: "Restaurant gastronomique au cœur du 15ème arrondissement de Paris. Cuisine française raffinée, produits frais et ambiance élégante.",
+  keywords: "restaurant paris, gastronomie française, restaurant 15ème, la cabine d'argent, cuisine française",
+  openGraph: {
+    title: "La Cabine d'Argent | Restaurant Gastronomique à Paris",
+    description: "Une expérience culinaire unique au cœur de Paris",
+    images: ["/images/cabine-logo.png"],
+  }
 };
 
 export default function RootLayout({

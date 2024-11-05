@@ -73,10 +73,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## 📱 Pages & Components
 
 ### Pages
-- **Home**: Dynamic background slider and welcome message
-- **Menu**: Downloadable PDF menu (planned)
+- **Home**: Dynamic background slider, welcome section, and contact form
+- **Menu**: Downloadable PDF menu with elegant layout
+- **About**: Company history, values, and founders section
 - **Contact**: Integrated contact form with EmailJS
-- **Location**: Google Maps integration
+- **Location**: Interactive map, transport info, and opening hours
 
 ### Key Components
 - `BackgroundSlider`: Dynamic image carousel
