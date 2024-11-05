@@ -1,9 +1,20 @@
 'use client';
 
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const WelcomeSection = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null; // ou un placeholder/skeleton
+  }
+
   return (
     <section className="py-20 bg-background px-4">
       <div className="max-w-7xl mx-auto">

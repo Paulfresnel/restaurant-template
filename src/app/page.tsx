@@ -1,5 +1,6 @@
 import BackgroundSlider from '@/components/home/BackgroundSlider';
 import WelcomeSection from '@/components/home/WelcomeSection';
+import ContactForm from '@/components/home/ContactForm';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         </div>
       </div>
       <WelcomeSection />
+      <ContactForm />
     </>
   );
 }

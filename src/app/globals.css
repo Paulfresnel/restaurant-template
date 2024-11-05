@@ -33,3 +33,11 @@ body {
     transition: opacity 1s ease-in-out;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+
