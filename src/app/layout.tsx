@@ -23,8 +23,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "La Cabine d'Argent | Restaurant Gastronomique à Paris",
     description: "Une expérience culinaire unique au cœur de Paris",
-    images: ["/images/cabine-logo.png"],
-  }
+    images: ["/images/cabine-logo.jpeg"],
+  },
+  icons: {
+    icon: '/images/cabine-logo.jpeg',
+    apple: '/images/cabine-logo.jpeg',
+  },
 };
 
 export default function RootLayout({

@@ -46,9 +46,10 @@ const Founders = () => {
             <div className="relative w-48 h-48 mx-auto mb-6">
               <Image
                 src="/images/history/founder1.jpeg"
-                alt="Fondateur"
+                alt="Pierre Dubois, Chef Exécutif et Co-Fondateur de La Cabine d'Argent"
                 fill
                 className="object-cover rounded-full"
+                priority
               />
             </div>
             <h3 className="text-2xl font-heading text-primary mb-2">Pierre Dubois</h3>

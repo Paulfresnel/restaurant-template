@@ -33,12 +33,17 @@ const BackgroundSlider = () => {
           }`}
         >
           <Image
+            key={index}
             src={image}
-            alt={`Background ${index + 1}`}
+            alt={`La Cabine d'Argent - ${
+              index === 0 ? 'Vue de la salle principale' :
+              index === 1 ? 'Nos plats signatures' :
+              'Notre ambiance unique'
+            }`}
             fill
+            className="object-cover transition-opacity duration-1000"
             priority={index === 0}
-            className="object-cover"
-            sizes="100vw"
+            quality={90}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
