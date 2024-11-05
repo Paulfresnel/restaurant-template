@@ -3,6 +3,7 @@ import { Playfair_Display, Lato } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
+import Script from 'next/script';
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
@@ -27,6 +28,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <Script 
+          src="https://kit.fontawesome.com/c343de5fc7.js" 
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className={`${playfair.variable} ${lato.variable}`}>
         <Header />
         <main className="min-h-screen">
