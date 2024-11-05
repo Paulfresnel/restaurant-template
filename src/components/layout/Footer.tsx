@@ -35,6 +35,8 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center font-body">
           <p>&copy; {new Date().getFullYear()} La Cabine d&apos;Argent. Tous droits réservés.</p>
+          <br/>
+          <p>Site réalisé avec ❤️ par <a href="https://www.linkedin.com/in/paul-fresnel/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors duration-300">Paul Fresnel</a></p>
         </div>
       </div>
     </footer>
